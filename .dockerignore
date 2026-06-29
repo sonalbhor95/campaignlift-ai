@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.git/
+.gitignore
+.ipynb_checkpoints/
+data/raw/
+data/processed/
+reports/figures/
+mlruns/

@@ -1,0 +1,18 @@
+project:
+  name: CampaignLift AI
+  random_state: 42
+
+data:
+  source: Criteo Uplift Prediction Dataset
+  download_url: https://go.criteo.net/criteo-research-uplift-v2.1.csv.gz
+  processed_file: data/processed/criteo_uplift_sample.csv
+
+model:
+  target_col: visit
+  treatment_col: treatment
+  test_size: 0.25
+  default_sample_rows: 200000
+
+business:
+  outcome_value: 25.0
+  contact_cost: 0.25
