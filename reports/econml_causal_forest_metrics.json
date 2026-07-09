@@ -1,0 +1,15 @@
+{
+  "model": "econml_causal_forest_dml",
+  "rows_train": 150000,
+  "rows_test": 50000,
+  "target_col": "visit",
+  "treatment_col": "treatment",
+  "target_rate_test": 0.02382,
+  "treatment_rate_test": 0.50072,
+  "causal_forest_qini_auc": 23.665369105850647,
+  "avg_predicted_uplift": 0.0013631300449705682,
+  "share_recommended_for_treatment": 0.58894,
+  "top_decile_avg_uplift": 0.016376409412991975,
+  "confident_positive_share": 0.03506,
+  "confident_negative_share": 0.00782
+}
