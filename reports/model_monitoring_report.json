@@ -1,0 +1,99 @@
+{
+  "reference_rows": 200000,
+  "current_rows": 50000,
+  "feature_drift": {
+    "f0": {
+      "ks_p_value": 0.406921579323007,
+      "psi": 0.00015787587583463906,
+      "drift_level": "low",
+      "drift_detected": false
+    },
+    "f1": {
+      "ks_p_value": 1.0,
+      "psi": 0.0,
+      "drift_level": "low",
+      "drift_detected": false
+    },
+    "f2": {
+      "ks_p_value": 0.2968114216262526,
+      "psi": 7.125846231727577e-05,
+      "drift_level": "low",
+      "drift_detected": false
+    },
+    "f3": {
+      "ks_p_value": 1.0,
+      "psi": 6.722964732734902e-07,
+      "drift_level": "low",
+      "drift_detected": false
+    },
+    "f4": {
+      "ks_p_value": 1.0,
+      "psi": 0.0,
+      "drift_level": "low",
+      "drift_detected": false
+    },
+    "f5": {
+      "ks_p_value": 1.0,
+      "psi": 0.0,
+      "drift_level": "low",
+      "drift_detected": false
+    },
+    "f6": {
+      "ks_p_value": 0.9825302493627913,
+      "psi": 0.00015344700249676036,
+      "drift_level": "low",
+      "drift_detected": false
+    },
+    "f7": {
+      "ks_p_value": 1.0,
+      "psi": 0.0,
+      "drift_level": "low",
+      "drift_detected": false
+    },
+    "f8": {
+      "ks_p_value": 0.7984395686443102,
+      "psi": 6.40906332189471e-05,
+      "drift_level": "low",
+      "drift_detected": false
+    },
+    "f9": {
+      "ks_p_value": 0.9999999999952537,
+      "psi": 0.0,
+      "drift_level": "low",
+      "drift_detected": false
+    },
+    "f10": {
+      "ks_p_value": 0.9999999861237895,
+      "psi": 0.0,
+      "drift_level": "low",
+      "drift_detected": false
+    },
+    "f11": {
+      "ks_p_value": 1.0,
+      "psi": 0.0,
+      "drift_level": "low",
+      "drift_detected": false
+    }
+  },
+  "features_with_drift": [],
+  "prediction_monitoring": {
+    "target_rate": 0.02382,
+    "treatment_rate": 0.5,
+    "uplift_s_learner_mean": 0.0009439120232955571,
+    "uplift_s_learner_p10": -2.045010944110812e-05,
+    "uplift_s_learner_p50": 9.330234601390608e-06,
+    "uplift_s_learner_p90": 0.0005364144618996376,
+    "uplift_s_learner_positive_share": 0.6965,
+    "uplift_t_learner_mean": 0.0018374232035344462,
+    "uplift_t_learner_p10": -0.0020760043449854,
+    "uplift_t_learner_p50": 0.000146842448167,
+    "uplift_t_learner_p90": 0.0043525153585295,
+    "uplift_t_learner_positive_share": 0.70084,
+    "customer_type_distribution": {
+      "Lost Cause": 0.49174,
+      "Sleeping Dog": 0.29916,
+      "Persuadable": 0.2,
+      "Sure Thing": 0.0091
+    }
+  }
+}
