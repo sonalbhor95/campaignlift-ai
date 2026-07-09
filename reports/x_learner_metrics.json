@@ -1,0 +1,13 @@
+{
+  "model": "custom_x_learner",
+  "rows_train": 150000,
+  "rows_test": 50000,
+  "target_col": "visit",
+  "treatment_col": "treatment",
+  "target_rate_test": 0.02382,
+  "treatment_rate_test": 0.50072,
+  "x_learner_qini_auc": 23.294142865611118,
+  "avg_predicted_uplift": 0.0015002467083846524,
+  "share_recommended_for_treatment": 0.97228,
+  "top_decile_avg_uplift": 0.01750507813999644
+}
